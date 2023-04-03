@@ -1,0 +1,125 @@
+.bttn {
+    background-color: #e4531b;
+    border: none;
+    border-radius: 5px;
+    width: 8rem;
+}
+
+.bttn:hover {
+    background-color: #b64316;
+}
+
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.bttn1 {
+    background-color: #e4531b;
+    border: none;
+    border-radius: 5px;
+    width: 12rem;
+}
+
+.bttn1:hover {
+    background-color: #b64316;
+}
+
+.error {
+    color: red;
+}
+
+.gtext {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.form-valid input {
+    width: 39vw;
+    height: 38px;
+    border: 3px solid black;
+    outline: none;
+    border-radius: 4px;
+}
+
+.form-button {
+    width: 39vw;
+    height: 42px;
+    background-color: #e4531b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-button:hover {
+    background-color: #b64316;
+}
+
+.form-valid input:hover {
+    border: 3px solid blue;
+}
+
+.rtext {
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.containers {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.containers img {
+    width: 100%;
+    height: auto;
+}
+
+.bt {
+    position: absolute;
+    top: 66%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 10rem;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e4531b;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bttns {
+    position: absolute;
+    top: 66%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #e4531b;
+    color: white;
+    font-size: 16px;
+    padding: 16px 54px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}

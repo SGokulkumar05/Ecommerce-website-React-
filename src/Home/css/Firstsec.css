@@ -1,0 +1,157 @@
+.hover {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    padding: 13% 10%;
+}
+
+.image-cnt {
+    margin-top: 9rem;
+}
+
+.imgs-btn1 {
+    width: 45%;
+    height: 100%;
+    background-color: #e4531b;
+    color: white;
+    font-size: 19px;
+    padding: 0.5rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+.imgs-btn1:hover {
+    background-color: #b64316;
+}
+
+.imgs-btn2 {
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    padding: 0.5rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+.content {
+    padding-top: 2rem;
+    padding-left: 1.75rem;
+    font-family: 'din-2014', sans-serif;
+}
+
+#image1:hover {
+    transition: 0.5s;
+    position: relative;
+    transform: scale(1.1);
+    height: 16.25rem;
+    width: 16rem;
+    border-radius: 10px;
+}
+
+#image2:hover {
+    position: relative;
+    width: 16rem;
+    content: url("https://content.abt.com/image.php/Solo-Stove-Bonfire-2p0-SS-Fire-Pit-SSBON-2.jpg?image=/images/products/BDP_Images/Solo-Stove-Bonfire-2p0-SS-Fire-Pit-SSBON-2.jpg&canvas=1&min_w=750&min_h=0https://www.solostove.com/en-us/p/solo-stove-bonfirehttp://t0.gstatic.com/images?q=tbn:ANd9GcTC_dYYTM1veiHZJmsljAh8F29whVa6e5Ze145_u2L_gj82diQj");
+    height: 16.25rem;
+    border-radius: 10px;
+}
+
+#image3:hover {
+    position: relative;
+    width: 16rem;
+    content: url("https://content.abt.com/image.php/Solo-Stove-Bonfire-2p0-SS-Fire-Pit-SSBON-2.jpg?image=/images/products/BDP_Images/Solo-Stove-Bonfire-2p0-SS-Fire-Pit-SSBON-2.jpg&canvas=1&min_w=750&min_h=0https://www.solostove.com/en-us/p/solo-stove-bonfirehttp://t0.gstatic.com/images?q=tbn:ANd9GcTC_dYYTM1veiHZJmsljAh8F29whVa6e5Ze145_u2L_gj82diQj");
+    height: 16.25rem;
+    border-radius: 10px;
+}
+
+#image4:hover {
+    transition: 0.5s;
+    position: relative;
+    transform: scale(1.1);
+    height: 16.25rem;
+    width: 16rem;
+    border-radius: 10px;
+}
+
+.product-btn {
+    width: 15rem;
+    height: 40px;
+    background-color: #e4531b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.product-btn:hover {
+    background-color: #b64316;
+}
+
+.product1 img {
+    width: 16rem;
+    height: 16.25rem;
+    cursor: pointer;
+}
+
+.hover1 {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    padding: 0.5% 5.25%;
+}
+
+.resp {
+    display: none;
+}
+
+.shade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.427);
+    margin-left: 0.4rem;
+    border-radius: 8px;
+}
+
+.image-scroll-sec {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 10px;
+}
+
+.image-scroll-sec img {
+    margin-left: .4rem;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'din-2014', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+@media (max-width:1200px) {
+    .resp {
+        display: block;
+    }
+
+    .product1 {
+        overflow-x: auto;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .noresp {
+        display: none;
+    }
+}

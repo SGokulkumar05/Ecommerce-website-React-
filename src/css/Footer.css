@@ -1,0 +1,152 @@
+.footer {
+    background-color: black;
+    width: 100vw;
+}
+
+.footer-adrs {
+    margin: 20px 0px 0px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.footer-first {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.media-footer div {
+    display: none;
+}
+
+.address {
+    width: 15%;
+    color: white;
+    margin-left: 5px;
+}
+
+.address img {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    height: 48px;
+    width: 210px;
+    margin-bottom: 33px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    height: 100%;
+
+}
+
+footer a,
+.address {
+    text-decoration: none;
+    color: #fff !important;
+    display: block;
+    font-weight: bold;
+    line-height: 2rem;
+    color: white;
+}
+
+.products {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.media-footer {
+    width: 14% !important;
+}
+
+.address {
+    width: 15.5rem;
+    color: white;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.email {
+    margin-top: 50px;
+    font-family: 'din-2014', sans-serif;
+    height: 100%;
+}
+
+.forms input[type="email"] {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 2px solid black;
+
+}
+
+input[type="email"]:focus {
+    outline: none;
+}
+
+.form-btn {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e4531b;
+    width: 6.4rem;
+    font-size: 15px;
+    height: 3rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 3px;
+}
+
+.form-btn:hover {
+    background-color: #b64316;
+}
+
+@media (max-width:1208px) {
+    .media-footer {
+        width: 100% !important;
+    }
+
+    footer section {
+        margin-left: 10px;
+    }
+
+    .forms button[type=submit] {
+        padding: 1rem;
+        width: 100%;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .media-footer div {
+        display: block;
+    }
+
+    .connect,
+    .About,
+    .support,
+    .shopourbrands,
+    .products {
+        display: none;
+    }
+
+    .products {
+        margin-bottom: 0;
+    }
+
+    .forms input[type="email"] {
+        height: 100%;
+        width: 100%;
+    }
+}

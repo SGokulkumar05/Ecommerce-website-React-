@@ -1,0 +1,79 @@
+.meetpi {
+    margin-top: 2rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.meetpi-btn {
+    width: 13rem;
+    height: 3rem;
+    background-color: #e4531b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+
+.deal-btn {
+    width: 15rem;
+    height: 40px;
+    background-color: #e4531b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.meetpi-btn:hover,
+.deal-btn:hover {
+    background-color: #b64316;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+}
+
+.show-image {
+    height: calc(25vw - 18px);
+    width: calc(25vw - 18px);
+    position: relative;
+    margin: auto;
+}
+
+.show-image:hover img {
+    opacity: 0.2;
+    object-fit: cover;
+}
+
+.show-image:hover .img-top {
+    display: block;
+}
+
+.img-top {
+    position: absolute;
+    transform: translate(-3%, -65%);
+    text-align: center;
+    display: none;
+    height: calc(25vw - 18px);
+    width: calc(25vw - 18px);
+}
+
+.img-btn {
+    height: 2.25rem;
+    width: 8rem;
+    color: #fff;
+    background-color: #007aff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0.25rem;
+    font-weight: bolder;
+}
